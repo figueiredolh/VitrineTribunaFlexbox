@@ -1,0 +1,16 @@
+body{
+    background-color: #F9F9F9;
+}
+ul{
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.centralizar{
+    width: 75%;
+    margin: 50px auto;
+}
