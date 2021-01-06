@@ -11,6 +11,8 @@ body{
 
 ul{
     text-align: right;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li{
@@ -41,11 +43,22 @@ nav ul li a button{
 
 /*  */
 
-.produtos{
+.anuncios{
     width: 73%;
     margin: 30px auto;
 }
 
 .borda{
     border: 1px solid black;
+}
+
+/*  */
+
+.btnproduto{
+    background-color: #272727;
+    padding: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: .5em;
 }
