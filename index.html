@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/a125096efd.js" crossorigin="anonymous"></script>
     <!-- owlCarousel -->
-    <link rel="stylesheet" href="./owlCarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./owlCarousel/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
 </head>
 <body>
     
@@ -34,7 +34,8 @@
     </header>
 
     <!-- Seção Anúncios -->
-    <section class="anuncios">
+
+    <!-- <section class="anuncios">
         <div class="row">
             <div class="col-lg-3">
                 <img src="./img/Anuncios/airfryer.png" alt="" class="borda">
@@ -59,9 +60,36 @@
                 </div>
             </div>       
         </div>
+    </section> -->
+
+    <section class="anuncios">
+        <div class="row">
+            <article class="col-lg-3">
+                <img src="./img/Anuncios/airfryer.jpg" alt="" class="ajusteimg borda">
+            </article>
+            <article class="col-lg-3">
+                <img src="./img/Anuncios/iphone.png" alt="" class="ajusteimg borda">
+            </article>
+            <div class="col-lg-3 between-xs coluna-flex">
+                <article>
+                    <img src="./img/Anuncios/cuponsboutique.png" class="ajusteimg" alt="">
+                </article>
+                <article>
+                    <img src="./img/Anuncios/empregos.png" alt="" class="ajusteimg borda">
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6 between-xs coluna-flex">
+                <article>
+                    <img src="./img/Anuncios/cuponscasas.png" class="ajusteimg" alt="">
+                </article>
+                <article>
+                    <img src="./img/Anuncios/empregos.png" class="ajusteimg borda" alt="">
+                </article>
+            </div>
+        </div>
     </section>
 
-    <!-- Seção Cupons -->
+    <!-- Seção Produtos -->
 
     <section>
         <div class="row centralizar middle-xs between-xs">
@@ -76,6 +104,65 @@
                 </ul>
             </nav>
         </div>
+
+        <div class="produtos centralizar">
+            <div class="produto">
+                <figure>
+                    <img src="./img/Produtos/box.png" alt="">
+                </figure>
+                <figcaption>
+                    <h5>Luminária de Mesa Metálica</h5>
+                    <strong>R$ 124,90</strong>
+                </figcaption>
+                <footer>
+                    <span>
+                        <a href="#" class="promo">VER PROMOÇÃO</a>
+                    </span>
+                    <span>
+                        <a href="#" class="detalhes">+ DETALHES</a>
+                    </span>
+                </footer>
+            </div>
+            
+            <div class="produto">
+                <figure>
+                    <img src="./img/Produtos/box.png" alt="">
+                </figure>
+                <figcaption>
+                    <h5>Luminária de Mesa Metálica</h5>
+                    <strong>R$ 124,90</strong>
+                </figcaption>
+                <footer>
+                    <span>
+                        <a href="#" class="promo">VER PROMOÇÃO</a>
+                    </span>
+                    <span>
+                        <a href="#" class="detalhes">+ DETALHES</a>
+                    </span>
+                </footer>
+            </div>
+        </div>
     </section>
+
+    <!--  -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        var owl = $(".owl-carousel");
+
+        owl.owlCarousel({
+            items: 5,
+            margin: 30,
+            nav: true,
+            dots: false
+        });
+
+        /* $("#btn_prev").on('click', function(){
+        owl.trigger('prev.owl.carousel');
+        })
+
+        $("#btn_next").on('click', function(){
+        owl.trigger('next.owl.carousel');
+        }) */
+    </script>
 </body>
 </html>
