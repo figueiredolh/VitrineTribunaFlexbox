@@ -84,6 +84,7 @@ nav ul li a button{
 .produto{
     display: inline-block;
     border: 1px solid #ccc;
+    overflow: auto;
 }
 
 .produto figure{
