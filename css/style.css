@@ -41,7 +41,7 @@ nav ul li a button{
     color: white;
 }
 
-/*  */
+/* Anúncios  */
 
 .anuncios{
     width: 73%;
@@ -64,9 +64,9 @@ nav ul li a button{
     flex-direction: column; 
 }
 
-/*  */
+/* */
 
-.btnproduto{
+.btnsecao{
     background-color: #272727;
     padding: 18px;
     color: white;
@@ -75,16 +75,13 @@ nav ul li a button{
     border-radius: .5em;
 }
 
-/*  */
-
-.produtos{
-    margin-top: 30px;
-}
-
+/* Produtos */
 .produto{
-    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
-    overflow: auto;
+    overflow: hidden;
+    border-radius: .4em;
 }
 
 .produto figure{
@@ -119,4 +116,66 @@ nav ul li a button{
 .produto footer span .detalhes{
     background-color:#EAEAEA;
     color: black;
+}
+
+/* Cupons */
+
+.cupom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: .4em;
+    background-color: white;
+}
+
+.cupom figure{
+    margin: 0;
+}
+
+.cupom figure figcaption{
+    padding: 16px;
+}
+
+.cupom figure figcaption h5{
+    margin: 0 0 10px 0;
+    color: #BBBBBB;
+}
+
+.cupom footer a{
+    padding: 10px;
+    display: block;
+    background-color: #51C07A;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tamanhoimg{
+    height: 124px;
+}
+
+/*  */
+
+/* Empregos */
+
+.artigo{
+    background-color: white;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+.artigo h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.artigo p{
+    font-size: 14px;
+    color: #A9A9A9;
+    font-weight: 400;
 }
