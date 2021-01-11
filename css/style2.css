@@ -1,0 +1,132 @@
+/* ******* Página 2 - Home ********* */
+
+body{
+    background-color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.centralizar{
+    width: 80%;
+    margin: 0 auto;
+    height: inherit;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+/* Topo */
+
+.topo{
+    background-color: #262626;
+    height: 55px;
+}
+
+.topo .row{
+    height: inherit;
+}
+
+.topo nav ul li{
+    display: inline-block;
+}
+
+.topo img{
+    transform: translate(-50%);
+}
+
+/* ****** */
+
+.btnsecao{
+    background-color: #272727;
+    padding: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: .5em;
+}
+
+/* Produtos */
+.produto{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: .4em;
+}
+
+.produto figure{
+    margin: 0;
+}
+
+.produto figcaption h5{
+    margin: 0 0 10px 0;
+    color: #BBBBBB;
+}
+
+.produto figcaption{
+    padding: 15px 10px;
+}
+
+.produto footer span a{
+    font-size: 12px;
+    font-weight: bold;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.produto footer span .promo{
+    background-color:#F24B4B;
+    color: white;
+}
+
+.produto footer span .detalhes{
+    background-color:#EAEAEA;
+    color: black;
+}
+
+/* Cupons */
+
+.cupom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: .4em;
+    background-color: white;
+}
+
+.cupom figure{
+    margin: 0;
+}
+
+.cupom figure figcaption{
+    padding: 16px;
+}
+
+.cupom figure figcaption h5{
+    margin: 0 0 10px 0;
+    color: #BBBBBB;
+}
+
+.cupom footer a{
+    padding: 10px;
+    display: block;
+    background-color: #51C07A;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tamanhoimg{
+    height: 124px;
+}
+
+/*  */
