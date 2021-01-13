@@ -23,10 +23,6 @@ ul{
     height: 55px;
 }
 
-.topo .row{
-    height: inherit;
-}
-
 .topo nav ul li{
     display: inline-block;
 }
@@ -62,8 +58,6 @@ ul{
 }
 
 /* ***** */
-
-
 
 /* Air Fryer */
 
@@ -171,7 +165,9 @@ ul{
 }
 
 /* Descrição do Produto */
-
+.descricao p:nth-of-type(1){
+    margin-top: 40px;
+}
 .descricao p, .descricao span{
     font-size: 18px;
 }
