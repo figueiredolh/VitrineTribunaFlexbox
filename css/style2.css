@@ -35,6 +35,153 @@ ul{
     transform: translate(-50%);
 }
 
+.topo ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.topo ul li:hover{
+    background-color: #404040;
+}
+
+.topo a{
+    color: #F0EFEF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topo a:hover{
+    color: #dadada;
+    text-decoration: none;
+}
+
+.topo a i{
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+/* ***** */
+
+
+
+/* Air Fryer */
+
+.airfryer{
+    background-color: #FCFBFB;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.airfryer h1{
+    font-size: 32px;
+}
+
+.airfryer img{
+    float:left;
+}
+
+.info{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info1{
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    width: 50%;
+}
+
+.info1 p, .info2 p{
+    margin: 0;
+}
+
+.nomesecao{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #bbb;
+}
+
+.precoant{
+    font-size: 26px;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.precoatual{
+    font-size: 36px;
+    font-weight: bold;
+    color: #F24B4B;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.botaoestoque{
+    border-radius: 1.5em;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.botaopromocao{
+    border-radius: .5em;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 90px;
+    background-color: #51C07A;
+    color: white;
+    border: none;
+}
+
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redessociais{
+    border: none;
+    padding: 12px 20px;
+    font-size: 22px;
+    border-radius: .3em;
+    color: white;
+}
+
+.globo{
+    background-color: #3E98AE;
+}
+
+.facebook{
+    background-color:#4642A5;
+}
+
+.whats{
+    background-color: #42A577;
+}
+
+/* Descrição do Produto */
+
+.descricao p, .descricao span{
+    font-size: 18px;
+}
+
+.descricao h2{
+    font-size: 20px;
+    display: inline;
+}
+
+
 /* ****** */
 
 .btnsecao{
@@ -129,4 +276,9 @@ ul{
     height: 124px;
 }
 
-/*  */
+/* **** */
+
+.tnonline{
+    background-color: white;
+    height: 150px;
+}
