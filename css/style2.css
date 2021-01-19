@@ -278,3 +278,246 @@ ul{
     background-color: white;
     height: 150px;
 }
+
+.tnonline ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tnonline ul li a{
+    text-decoration: none;
+    color: #E61F22;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tnonline ul li a i{
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.tnonline .row{
+    height: inherit;
+}
+
+.logo{
+    text-align: center
+}
+
+/*  */
+
+.barranav{
+    background-color: #E61F22;
+    height: 45px;
+}
+
+.barranav ul li{
+    display: inline-block;
+}
+
+.barranav .row{
+    height: inherit;
+}
+
+.divbarranav{
+    position: relative;
+    height: inherit;
+}
+
+.divbarranav ul li{
+    display: inline-block;
+    line-height: 45px;
+    margin-right: 20px;
+}
+
+.divbarranav nav{
+    position: absolute;
+    left: 0;
+}
+
+.apis{
+    position: absolute;
+    right: 0;
+}
+
+.divbarranav a, .apis{
+    color: #F0EFEF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.divbarranav a:hover{
+    color: #dadada;
+    text-decoration: none;
+}
+
+.apis li i{
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.apis ul{
+    display: flex;
+    align-items: center;
+}
+
+.apis{
+    display: flex;
+}
+
+.apis li:nth-child(2), .apis li:nth-child(3){
+    display: flex;
+    align-items: center;
+}
+
+/*  */
+
+.maislidas{
+    background-color: #F9F9F9;
+    height: 97px;
+}
+
+.maislidas article ul li{
+    display: inline-block;
+}
+
+.maislidas .row{
+    height: inherit;
+}
+
+.divmaislidas{
+    position: relative;
+    height: inherit;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.vertodos{
+    position: absolute;
+    left: 0%;
+    padding: 15px 40px 15px 0px;
+    border-right: 2px solid #E0E0E0;
+}
+
+.vertodos p{
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vertodos button{
+    padding: 0px 40px;
+    border: 1px solid #AAB0BA;
+    border-radius: .3em;
+    background-color: inherit;
+    color: #AAB0BA;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+article ul{
+    display: flex;
+    padding-left: 15%;
+}
+
+article ul li{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+/*  */
+
+.vitrine{
+    background-color: #F24B4B;
+    height: 84px;
+}
+
+.divvitrine{
+    position: relative;
+    height: inherit;
+}
+
+nav .home{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+nav .logovitrine{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav .menu{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+nav .home a, nav .menu a{
+    font-size: 26px;
+    color: white;
+}
+
+/* ----- */
+
+.rodape{
+    background-color: #222222;
+    margin-top: 80px;
+}
+
+.rodape .siga{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 0px;
+    border-bottom: 1px solid #808080;
+}
+
+.rodape .siga ul, .rodape .siga ul li{
+    display: inline-block;
+}
+
+.rodape .siga ul li a{
+    margin: 0px 5px;
+    color: white;
+}
+
+.divrodape{
+    padding: 40px 0px;
+    margin: 0;
+    color: white;
+}
+
+.divrodape h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.divrodape ul{
+    font-size: 12px;
+    list-style: none;
+}
+
+.divrodape ul li+li{
+    margin-top: 10px;
+}
+
+.divrodape div:last-child{
+    border-left: 1px solid #808080;
+    box-sizing: border-box;
+    padding: 50px 70px 50px 50px;
+    font-size: 12px;
+}
